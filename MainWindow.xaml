@@ -8,7 +8,7 @@
         Title="Площади фигур" Height="350" Width="450">
     <Grid>
         <Button Content="Вычислить" HorizontalAlignment="Left" Margin="303,141,0,0" VerticalAlignment="Top" Click="CalculateArea" Height="25" Width="95" />
-        <TextBlock x:Name="ResultLabel" Text="Площадь =" Foreground="Red" Margin="28,146,176,146"/>
+        <TextBlock x:Name="ResultLabel" Text="Площадь =" Foreground="Red" Margin="24,146,180,146"/>
         <GroupBox Header="Вид фигуры" HorizontalAlignment="Right" Margin="0,29,36,200" Width="150">
             <StackPanel>
                 <RadioButton x:Name="RectangleRadio" Content="Прямоугольник" Checked="FigureChoice"/>
